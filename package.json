@@ -1,11 +1,11 @@
 {
   "name": "gulp-steel-server",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "steel server",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/finrila/gulp-steel-server"
+    "url": "git+https://github.com/finrila/gulp-steel-server.git"
   },
   "author": {
     "name": "Finrila",
@@ -16,22 +16,56 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "node server.js"
   },
   "keywords": [
     "steel"
   ],
   "dependencies": {
-	"gulp-util": "^3.0.2",
+    "gulp-util": "^3.0.2",
     "connect": "~2.19.5",
-	"connect-livereload": "~0.4.0",
+    "connect-livereload": "~0.4.0",
     "portscanner": "~0.2.3",
-	"jade": "1.7.0",
+    "jade": "1.7.0",
     "async": "~0.9.0",
-	"pm2": "~0.12.15"
+    "pm2": "~0.12.15"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "main": "index.js",
-  "homepage": "https://github.com/finrila/gulp-steel-server"
+  "homepage": "https://github.com/finrila/gulp-steel-server",
+  "gitHead": "7d3260f76a8a7122ef8df4979de391b21ead29fa",
+  "bugs": {
+    "url": "https://github.com/finrila/gulp-steel-server/issues"
+  },
+  "_id": "gulp-steel-server@0.0.20",
+  "_shasum": "e38143d7b8e58102ccd02b9329daa11fcad2ca52",
+  "_from": "gulp-steel-server@*",
+  "_npmVersion": "2.15.0",
+  "_nodeVersion": "4.4.2",
+  "_npmUser": {
+    "name": "finrila",
+    "email": "finrila@gmail.com"
+  },
+  "dist": {
+    "shasum": "e38143d7b8e58102ccd02b9329daa11fcad2ca52",
+    "tarball": "https://registry.npmjs.org/gulp-steel-server/-/gulp-steel-server-0.0.20.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "finrila",
+      "email": "finrila@gmail.com"
+    },
+    {
+      "name": "jerryniepan",
+      "email": "xf_cf@126.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gulp-steel-server-0.0.20.tgz_1460035886628_0.09497834765352309"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-steel-server/-/gulp-steel-server-0.0.20.tgz",
+  "readme": "ERROR: No README data found!"
 }
