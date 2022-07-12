@@ -36,9 +36,12 @@
             gzip: !options.debug,
             access_control_allow: true,
             staticProxy: {
-                'js*.t.sinajs.cn/*': 'sinajs.xdwscache.glb0.lxdns.com',
-                'img*.t.sinajs.cn/*': 'sinajs.xdwscache.glb0.lxdns.com',
-                'tjs.sjs.sinajs.cn/*': 'sinajs.xdwscache.glb0.lxdns.com'
+                'hostname/path/*': 'hostname',//default port 80
+                'hostname:port/path/*': 'hostname:port',
+                'hostname:port/path/*': {
+                    'hostname': 'hostname',
+                    'port': 80//该属性不写默认为80
+                },
             },
             pm2: options.pm2,
             tasks: options.tasks
